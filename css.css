@@ -1,0 +1,152 @@
+
+* {
+    margin:         0;
+    padding:        0;
+    box-sizing:     0;
+    text-decoration: none;
+}
+
+body
+{
+    font-size: 100%;
+}
+
+.cabecalho
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.logo-cabecalho
+{
+    height: 30px;
+}
+
+.menu-cabecalho
+{
+    display: flex;
+    gap: 40px;
+}
+
+.menu-icones
+{
+    display: flex;
+    gap: 30px;
+}
+
+.menu-cabecalho-item
+{
+    
+    font-family: "Quicksand", sans-serif;
+    color: #000000;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.conteudo-principal
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: #005991;
+}
+
+.conteudo-2
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F8F8F8;
+}
+
+.conteudo-bebida-paragrafo
+{
+    margin-top: 30px;
+    width: 500px;
+}
+
+.bebida-1
+{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    background: linear-gradient(62.00deg, #01C063 56.62% , #FFFFFF 100.61%);
+    color: #F8F8F8;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+
+}
+
+.bebida-2
+{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    background: linear-gradient(62.00deg, #EF1B38 56.62% , #FFFFFF 100.61%);
+    color: #F8F8F8;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+
+}
+
+.bebida-3
+{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    background: linear-gradient(62.00deg, #38B6FF 56.62% , #FFFFFF 100.61%);
+    color: #F8F8F8;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+
+}
+
+.conteudo-parceria
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.rodape
+{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    color: #F8F8F8;
+    background-color: #004A97;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+}
+
+.item-rodape
+{
+    padding-right: 80px;
+}
+
+.logo-rodape
+{
+    margin-left: 380px;
+}
+
+
+
+
+
+
+
+
+
